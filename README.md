@@ -1,6 +1,6 @@
-# UbiComp 2026 Workshop: Trustworthy Agentic AI (Track 1 - MedLongTrust-EHR)
+# MedVERA
 
-**MedVERA：Protocol-Aware Exact-Set Evidence Grounding for Trustworthiness Verification over Longitudinal EHRs**
+**Protocol-Aware Exact-Set Evidence Grounding for Trustworthiness Verification over Longitudinal EHRs**
 
 MedVERA is a fully local framework for jointly predicting trust labels,
 clinical risk types, and exact paragraph-level evidence sets from
