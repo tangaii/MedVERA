@@ -1,0 +1,33 @@
+{
+  "name": "MedVERA final evidence protocol",
+  "title": "Protocol-Aware Exact-Set Evidence Grounding for Trustworthiness Verification over Longitudinal EHRs",
+  "repair_families": [
+    "condition_multi",
+    "observation_indicator_mismatch"
+  ],
+  "validation": {
+    "group_key": "record_id",
+    "folds": 6,
+    "seeds": [
+      20260713,
+      20260720,
+      20260727
+    ],
+    "fold_seed_units": 18,
+    "required_support": 17
+  },
+  "batch_cardinality": {
+    "dev": 473,
+    "test": 476
+  },
+  "serialization": {
+    "ensure_ascii": false,
+    "indent": 2,
+    "trailing_newline": true,
+    "preserve_qid_order": true
+  },
+  "reference_sha256": {
+    "dev": "58494ae0170023a8e2618b86953d280269297e33fe71f2f49fb2bb7dc67f1bf7",
+    "test": "7ed85f5c47aad1b3e9f28abf89a044353b386cfc873d1ac4b8faf7d49f5e6daa"
+  }
+}

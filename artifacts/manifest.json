@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "expected_output_sha256": {
+    "dev": "58494ae0170023a8e2618b86953d280269297e33fe71f2f49fb2bb7dc67f1bf7",
+    "test": "7ed85f5c47aad1b3e9f28abf89a044353b386cfc873d1ac4b8faf7d49f5e6daa"
+  },
+  "files": [
+    {
+      "path": "artifacts/base_dev.json",
+      "sha256": "85cb6f73cb9683266ee9266057e9e5a124f80cbbee193f742668b6c7b90130b2"
+    },
+    {
+      "path": "artifacts/base_test.json",
+      "sha256": "0de06a684e7a283960240d96b94365adbedd51f8111eb37bbf269d21830a9d40"
+    },
+    {
+      "path": "artifacts/protocol.json",
+      "sha256": "927e271b1b0c4742148c73d3660ae44e03f59a83a3934d23473eafa0193238d6"
+    },
+    {
+      "path": "src/medvera/official_evaluate.py",
+      "sha256": "0749eaefc3be3e7f45aa359210a0d9970b7616fe0a7d03e71de509a8ebaddf4c"
+    }
+  ]
+}

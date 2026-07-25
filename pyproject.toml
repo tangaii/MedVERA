@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medvera"
+version = "1.1.0"
+description = "Protocol-aware exact-set evidence grounding for longitudinal EHR verification"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [
+  {name = "Ai Tang"},
+  {name = "Wei Yuan"},
+  {name = "Fuyou Zhang"},
+  {name = "Xiao Luan", email = "luanxiao@cqupt.edu.cn"}
+]
+keywords = [
+  "electronic health records",
+  "trustworthiness",
+  "evidence grounding",
+  "clinical NLP"
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/tangaii/MedVERA"
+
+[project.optional-dependencies]
+train = [
+  "joblib==1.3.2",
+  "numpy==1.26.0",
+  "scipy==1.11.3",
+  "scikit-learn==1.3.2"
+]
+test = []
+
+[project.scripts]
+medvera-reproduce = "medvera.cli:reproduce_main"
+medvera-verify = "medvera.cli:verify_main"
+medvera-train = "medvera.cli:train_main"
+medvera-predict = "medvera.cli:predict_main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
