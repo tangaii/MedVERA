@@ -10,11 +10,6 @@ generative APIs. This repository provides raw-data training and frozen
 inference artifacts for the Track 1 Silver Award project, whose competition
 submission tied for the top final Codabench score of **100.0**.
 
-- Codabench competition: <https://www.codabench.org/competitions/16891/>
-- Workshop and challenge: <https://trustworthy-agentic-ai.github.io/>
-- External generative API usage: **none**
-- Generative token usage: **0**
-
 ## Award
 
 🏆 **Silver Award — Track 1: MedLongTrust-EHR**
@@ -27,7 +22,6 @@ Trustworthiness Verification over Longitudinal EHRs*.
 - **Authors:** Ai Tang, Wei Yuan, Fuyou Zhang
 - **Institution:** Chongqing University of Posts and Telecommunications
 - **Award date:** 12 October 2026
-- **Final Codabench score:** 100.0, tied for the top score on the final leaderboard
 
 <p align="center">
   <a href="Track%201%20Silver%20Award.pdf">
