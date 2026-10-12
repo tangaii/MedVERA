@@ -2,17 +2,42 @@
 
 **Protocol-Aware Exact-Set Evidence Grounding for Trustworthiness Verification over Longitudinal EHRs**
 
-MedVERA is a fully local framework for jointly predicting trust labels,
-clinical risk types, and exact paragraph-level evidence sets from
-longitudinal electronic health records. This repository contains both a
-raw-data training implementation and the frozen inference artifacts associated
-with the first-place submission to the MedLongTrust-EHR Public Track.
+MedVERA is a four-module, fully local framework for trustworthiness
+verification over longitudinal electronic health records. It combines
+protocol-aware exact-set evidence grounding with joint prediction of trust
+labels, clinical risk types, and evidence paragraph IDs, without external
+generative APIs. This repository provides raw-data training and frozen
+inference artifacts for the Track 1 Silver Award project, whose competition
+submission tied for the top final Codabench score of **100.0**.
 
 - Codabench competition: <https://www.codabench.org/competitions/16891/>
 - Workshop and challenge: <https://trustworthy-agentic-ai.github.io/>
-- Final Codabench score: **100.0**
 - External generative API usage: **none**
 - Generative token usage: **0**
+
+## Award
+
+🏆 **Silver Award — Track 1: MedLongTrust-EHR**
+
+MedVERA received the Silver Award at **Trustworthy Agentic AI 2026**, held
+in conjunction with **UbiComp/ISWC 2026**. The official certificate recognizes
+the paper *MedVERA: Protocol-Aware Exact-Set Evidence Grounding for
+Trustworthiness Verification over Longitudinal EHRs*.
+
+- **Authors:** Ai Tang, Wei Yuan, Fuyou Zhang
+- **Institution:** Chongqing University of Posts and Telecommunications
+- **Award date:** 12 October 2026
+- **Final Codabench score:** 100.0, tied for the top score on the final leaderboard
+
+<p align="center">
+  <a href="Track%201%20Silver%20Award.pdf">
+    <img src="docs/awards/track1-silver-award.png" width="780" alt="Official Track 1: MedLongTrust-EHR Silver Award certificate for MedVERA at Trustworthy Agentic AI 2026">
+  </a>
+</p>
+
+<p align="center">
+  <a href="Track%201%20Silver%20Award.pdf">View or download the official certificate (PDF)</a>
+</p>
 
 ![MedVERA architecture](architecture.png)
 
@@ -180,7 +205,7 @@ The repository exposes two deliberately separate reproducibility levels:
 
 In our end-to-end audit, a newly trained model produced the same per-query
 `trust_label`, `risk_types`, and `evidence` values on test as the frozen
-first-place artifact. Its byte hash can differ because the paths preserve
+competition submission. Its byte hash can differ because the paths preserve
 different JSON key orders. With the pinned Python 3.12 training environment,
 the trained-path test SHA256 is
 `0016e932a1bdfd56a5438ad12cf8f664a5bee2bec5e0f0950ed4d9aaa9fe1084`.
