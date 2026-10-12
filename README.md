@@ -246,7 +246,7 @@ MEDVERA_RUN_FULL_TRAINING=1 \
 @inproceedings{tang2026medvera,
   title     = {MedVERA: Protocol-Aware Exact-Set Evidence Grounding for
                Trustworthiness Verification over Longitudinal EHRs},
-  author    = {Tang, Ai and Yuan, Wei and Zhang, Fuyou and Luan, Xiao},
+  author    = {Tang, Ai and Yuan, Wei and Zhang, Fuyou},
   year      = {2026}
 }
 ```
