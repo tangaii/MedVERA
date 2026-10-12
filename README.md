@@ -33,7 +33,9 @@ Trustworthiness Verification over Longitudinal EHRs*.
   <a href="Track%201%20Silver%20Award.pdf">View or download the official certificate (PDF)</a>
 </p>
 
-![MedVERA architecture](architecture.png)
+## MedVERA Method Framework
+
+![MedVERA method framework](architecture.png)
 
 ## Method
 
